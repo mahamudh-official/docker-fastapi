@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Say Hello
-        run: echo "CI is working
+        run: echo "CI is working"

@@ -32,4 +32,4 @@ jobs:
         run: docker tag docker-fastapi:v1 ghcr.io/mahamudh-official/docker-fastapi:v1
 
       - name: Push Docker image
-	run: docker push ghcr.io/mahamudh-official/docker-fastapi:v1
+        run: docker push ghcr.io/mahamudh-official/docker-fastapi:v1

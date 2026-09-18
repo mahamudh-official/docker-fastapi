@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Docker FastAPI API"}
+    return {"message": "Docker FastAPI API v2"}
 
 @app.get("/db-test")
 def db_test():

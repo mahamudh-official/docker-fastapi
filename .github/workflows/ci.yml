@@ -26,10 +26,10 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker Image
-        run: docker build -t docker-fastapi:v1 .
+        run: docker build -t docker-fastapi:v2 .
         
       - name: Tag Docker image
-        run: docker tag docker-fastapi:v1 ghcr.io/mahamudh-official/docker-fastapi:v1
+        run: docker tag docker-fastapi:v2 ghcr.io/mahamudh-official/docker-fastapi:v2
 
       - name: Push Docker image
-        run: docker push ghcr.io/mahamudh-official/docker-fastapi:v1
+        run: docker push ghcr.io/mahamudh-official/docker-fastapi:v2
